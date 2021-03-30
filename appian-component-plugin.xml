@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appian-component-plugin name="Google Bar Chart" key="com.vuram.barchart">
+  <plugin-info>
+    <description>Displays a google bar chart component based on the parameter inputs</description>
+    <vendor name="Vuram" url="www.vuram.com"/>
+    <version>1.0.5</version>
+    <support supported="true" email="swat@vuram.com" url="https://www.vuram.com"/>
+  </plugin-info>
+  <component rule-name="googleBarChart" version="1.0.0">
+    <sdk-version>2.0.0</sdk-version>
+    <supported-user-agents>chrome ie11 edge safari mobile</supported-user-agents>
+    <parameter>
+      <name>title</name>
+      <category>input-only</category>
+      <type>String</type>
+    </parameter>
+    <parameter>
+      <name>subtitle</name>
+      <category>input-only</category>
+      <type>String</type>
+    </parameter>
+    <parameter>
+      <name>vAxisTitle</name>
+      <category>input-only</category>
+      <type>String</type>
+    </parameter>
+    <parameter>
+      <name>datasetOne</name>
+      <category>input-only</category>
+      <type>Integer</type>
+    </parameter>
+    <parameter>
+      <name>datasetTwo</name>
+      <category>input-only</category>
+      <type>Integer</type>
+    </parameter>
+    <parameter>
+      <name>datasetOneLegend</name>
+      <category>input-only</category>
+      <type>String</type>
+    </parameter>
+    <parameter>
+      <name>datasetTwoLegend</name>
+      <category>input-only</category>
+      <type>String</type>
+    </parameter>
+    <html-entry-point>index.html</html-entry-point>
+  </component>
+</appian-component-plugin>
